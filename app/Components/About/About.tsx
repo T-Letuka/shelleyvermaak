@@ -5,7 +5,7 @@ import ginfo from "@/public/ginfo.png";
 
 const About = () => {
   return (
-    <div className="pb-[3rem] pt-[5rem]">
+    <div className="pb-[3rem] pt-[5rem] ">
       <SectionHeading
         headingMini="Overview"
         description="Insights into My Background"
