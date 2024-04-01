@@ -1,6 +1,8 @@
 import React from "react";
 import hero from "@/public/hero.png";
 import Image from "next/image";
+import BlueButton from "../Buttons/BlueButton";
+import GoldButton from "../Buttons/GoldButton";
 
 const Hero = () => {
   return (
@@ -21,7 +23,12 @@ const Hero = () => {
             express themselves without fear of judgment. Rest assured, all
             sessions are conducted with the utmost confidentiality.
           </p>
+          <div className="flex items-center space-x-4 md:space-x-6 mt-2">
+            <BlueButton text="Book Appointment" />
+            <GoldButton text="Explore Site" />
+          </div>
         </div>
+
         <div className="col-span-3 hidden sm:block">
           <Image src={hero} alt="logo" />
         </div>

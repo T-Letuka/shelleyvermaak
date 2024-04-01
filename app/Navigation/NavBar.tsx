@@ -11,9 +11,9 @@ const Nav = ({ openNav }: Props) => {
     <div className="h-[12vh] bg-white shadow-lg ">
       <div className="w-[85%] flex items-center justify-between mx-auto h-[12vh]">
         <h1 className="text-[16px] md:text-[25px] font-bold text-black">
-          <span className="text-[27px] md:text-[40px] text-[#ffc300]">S</span>
+          <span className="text-[27px] md:text-[40px] text-[#ca9b02]">S</span>
           helly
-          <span className="text-[27px] md:text-[40px] text-[#ffc300] ml-[10px]">
+          <span className="text-[27px] md:text-[40px] text-[#ca9502] ml-[10px]">
             V
           </span>
           ermaak
