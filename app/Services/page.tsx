@@ -6,12 +6,11 @@ import Addiction from "@/public/addiction.jpg";
 import trauma from "@/public/trauma.jpg";
 import loove from "@/public/loove.jpg";
 import hands from "@/public/hands.png";
-
 import Image from "next/image";
 
 const page = () => {
   return (
-    <div className="pt-[3rem] pb-[1.5rem]">
+    <div className="pt-[2rem] pb[1.5rem]">
       <div>
         <Header
           heading="Counselling Services"

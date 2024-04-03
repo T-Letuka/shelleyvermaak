@@ -23,7 +23,7 @@ const Header = ({ heading, paragraph }: Props) => {
           </p>
         </div>
         <div className="col-span-3 hidden sm:block">
-          <Image src={hero1} alt="hero-picture" />
+          <Image src={hero1} alt="hero-picture" priority />
         </div>
       </div>
     </div>

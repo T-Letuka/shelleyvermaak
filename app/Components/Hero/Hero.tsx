@@ -30,7 +30,7 @@ const Hero = () => {
         </div>
 
         <div className="col-span-3 hidden sm:block">
-          <Image src={hero} alt="logo" />
+          <Image src={hero} alt="logo" priority />
         </div>
       </div>
     </div>
