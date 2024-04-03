@@ -24,16 +24,16 @@ const Nav = ({ openNav }: Props) => {
             <Link href="/">Home</Link>
           </li>
           <li className="text-[17px] cursor-pointer hover:text-[#ffc300] transition-all duration-200 ">
-            <Link href="/">Services</Link>
+            <Link href="/Services">Services</Link>
           </li>
           <li className="text-[17px] cursor-pointer hover:text-[#ffc300] transition-all duration-200 ">
-            <Link href="/">About Me</Link>
+            <Link href="/AboutMe">About Me</Link>
           </li>
           <li className="text-[17px] cursor-pointer hover:text-[#ffc300] transition-all duration-200 ">
-            <Link href="/">Self Help</Link>
+            <Link href="/Selfhelp">Self Help</Link>
           </li>
           <li className="text-[17px] cursor-pointer hover:text-[#ffc300] transition-all duration-200 ">
-            <Link href="/">Articles</Link>
+            <Link href="/Articles">Articles</Link>
           </li>
         </ul>
         <Bars4Icon
