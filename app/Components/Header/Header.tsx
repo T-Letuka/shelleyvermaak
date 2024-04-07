@@ -1,3 +1,4 @@
+"use client ";
 import React from "react";
 import hero1 from "@/public/hero1.png";
 import Image from "next/image";

@@ -11,7 +11,7 @@ const serviceList = [
     title: "Addiction Therapy",
     paragraph:
       "All Matters Related to Addiction General Addiction Counselling Help, Assistance, Advice & Referrals Interventions if needed Assistance and Counselling for the Addict who wants to Recover Assistance and Advice for the Families or Supporters Involved Counselling for Teens that are making the Wrong Choices After Care or Maintenance Counselling (After Rehab) Family Assistance with Co-Dependence, Enabling and Boundary Setting.Group Talks on Enabling and Co-Dependency 12 Step Programs",
-    image: "/addiction.jpg",
+    image: "/addiction1.jpg",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const serviceList = [
     title: "Marriage & Relationship Therapy",
     paragraph:
       "Relationships are a very important part of our lives. When important relationships break down it can be very traumatic and also extremely painful. Contact me for assistance if you need help for yourself or if you intend to repair or heal a broken relationship &apos;friendships, marriages, families, etc.&apos; An outside perspective can often assist and bring about change and healing as long as all parties are willing.",
-    image: "/loove.jpg",
+    image: "/love.jpg",
   },
   {
     id: 4,

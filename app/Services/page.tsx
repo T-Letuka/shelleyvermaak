@@ -6,7 +6,7 @@ import serviceList from "../data";
 
 const Page = () => {
   return (
-    <div className="pt-[2rem] pb[1.5rem]">
+    <div className="pt-[2rem] pb-[1.5rem]">
       <div>
         <Header
           heading="Counselling Services"
@@ -27,9 +27,18 @@ const Page = () => {
       <div>
         {serviceList.map((card, index) => (
           <div key={index}>
-            <Image src={card.image} alt="Card" width={500} height={500} />
-            <h2>{card.title}</h2>
-            <p>{card.paragraph}</p>
+            <div className="col-span-2">
+              <Image
+                src={card.image}
+                alt="Card"
+                objectFit="contain"
+                width={50}
+                height={50}
+              />
+
+              <h2>{card.title}</h2>
+              <p>{card.paragraph}</p>
+            </div>
           </div>
         ))}
       </div>
