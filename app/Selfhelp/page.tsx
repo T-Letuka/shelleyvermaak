@@ -56,15 +56,15 @@ const Pages = () => {
         </div>
         <div className="mt-8 sm:mt-12 lg:mt-16 xl:mt-20">
           <p className=" text-lg">
-            Accept God's Forgiveness: God's forgiveness is redemptive,
+            Accept God&apos;s Forgiveness: God's forgiveness is redemptive,
             representing His saving grace and giving meaning to the Bible. It
-            restores us and welcomes us into God's family. We've been harsh on
-            ourselves, undeserving of the self-punishment we've endured. The new
-            you deserves freedom from continual punishment. Our lives have
-            transformed, and our attitudes have improved. We're no longer
-            besieged by the world; we are free. Complete forgiveness means
-            clearing the offender's record and letting go of past pain. It
-            brings freedom, joy, and God's peace.
+            restores us and welcomes us into God&apos;s family. We&apos;ve been
+            harsh on ourselves, undeserving of the self-punishment we&apos;ve
+            endured. The new you deserves freedom from continual punishment. Our
+            lives have transformed, and our attitudes have improved. We&apos;re
+            no longer besieged by the world; we are free. Complete forgiveness
+            means clearing the offender&apos;s record and letting go of past
+            pain. It brings freedom, joy, and God&apos;s peace.
           </p>
         </div>
         <div className="border-b-2 mt-8 sm:mt-12 lg:mt-16 xl:mt-20">

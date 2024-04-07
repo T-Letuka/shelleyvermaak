@@ -19,10 +19,10 @@ const Hero = () => {
           <p className="text-[15px] md:text-[17px] mb-[2rem] text-black opacity-90 font-[400]">
             As a Registered Counsellor, I am committed to providing professional
             support to individuals seeking guidance.I approach my work with a
-            passion for helping people navigate life's challenges. I believe in
-            creating a safe and confidential space where clients can freely
-            express themselves without fear of judgment. Rest assured, all
-            sessions are conducted with the utmost confidentiality.
+            passion for helping people navigate life&apos;s challenges. I
+            believe in creating a safe and confidential space where clients can
+            freely express themselves without fear of judgment. Rest assured,
+            all sessions are conducted with the utmost confidentiality.
           </p>
           <div className="flex items-center space-x-4 md:space-x-6 mt-2">
             <Link href="/ContactMe">

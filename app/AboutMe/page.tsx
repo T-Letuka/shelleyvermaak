@@ -11,7 +11,7 @@ import Image from "next/image";
 import MediumCard from "../Components/BigCards/MediumCard";
 SwiperCore.use([]);
 
-const pages = () => {
+const Pages = () => {
   const swiperRef = useRef<SwiperType | null>(null);
 
   useEffect(() => {
@@ -117,4 +117,4 @@ const pages = () => {
   );
 };
 
-export default pages;
+export default Pages;

@@ -14,7 +14,7 @@ import SectionHeading from "../Components/SectionHeading/SectionHeading";
 SwiperCore.use([]);
 SwiperCore.use([Navigation]);
 
-const pages = () => {
+const Pages = () => {
   const swiperRef = useRef<SwiperType | null>(null);
 
   useEffect(() => {
@@ -123,7 +123,7 @@ const pages = () => {
                 </button>
               </Link>
               <p className="text-md font-semibold pt-2 text-[#023047]">
-                Overcoming Fear: Embracing God's Reality
+                Overcoming Fear: Embracing God&apos;s Reality
               </p>
             </div>
           </SwiperSlide>
@@ -164,7 +164,7 @@ const pages = () => {
               </Link>
               <p className="text-md font-semibold pt-2 text-[#023047]">
                 Finding Light in the Dark: A Must-Read for Anyone Navigating
-                Life's Unfairness
+                Life&apos;s Unfairness
               </p>
             </div>
           </SwiperSlide>
@@ -217,4 +217,4 @@ const pages = () => {
   );
 };
 
-export default pages;
+export default Pages;
