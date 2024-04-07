@@ -23,7 +23,7 @@ const Header = ({ heading, paragraph }: Props) => {
             {paragraph}
           </p>
         </div>
-        <div className="col-span-3 hidden sm:block">
+        <div className="col-span-3 hidden xl:block lg:inline-block">
           <Image src={hero1} alt="hero-picture" priority />
         </div>
       </div>
