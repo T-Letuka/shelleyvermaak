@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Header from "../Components/Header/Header";
 import ReadMore from "../Components/ReadMoreCard/ReadMore";
 import SectionHeading from "../Components/SectionHeading/SectionHeading";
 import Cards from "../Components/GeneralServices/GsCards/Cards";

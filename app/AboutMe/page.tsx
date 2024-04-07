@@ -20,11 +20,14 @@ const pages = () => {
     }
   }, []);
   return (
-    <div className="max-w-screen-lg mx-auto px-4 sm:py-2 ">
-      <Header
-        heading="Personal Narrative"
-        paragraph="From a young age, I've had a strong desire to help others. This was evident in my early years when I was deeply affected by the mistreatment depicted in The Ugly Duckling movie. This experience ignited a passion for advocating for the underdog and promoting acceptance and inclusivity. This formative experience instilled in me a compassionate heart dedicated to championing the marginalized and promoting inclusivity."
-      />
+    <div className="pt-[2rem] pb-[1.5rem] ">
+      <div>
+        <Header
+          heading="Personal Narrative"
+          paragraph="From a young age, I've had a strong desire to help others. This was evident in my early years when I was deeply affected by the mistreatment depicted in The Ugly Duckling movie. This experience ignited a passion for advocating for the underdog and promoting acceptance and inclusivity. This formative experience instilled in me a compassionate heart dedicated to championing the marginalized and promoting inclusivity."
+        />
+      </div>
+
       <div className="mt-8 grid gap-8 md:grid-col-3">
         <div className="flex gap-6 flex-col">
           <MediumCard
@@ -89,33 +92,23 @@ const pages = () => {
           onSlideChange={() => console.log("slide change")}
         >
           <SwiperSlide>
-            <div className="w-full h-64 overflow-hidden">
+            <div className="w-full h-50 ">
               <Image
                 src={registration}
                 alt="slide 1"
-                layout="fill"
-                objectFit="cover"
+                width={500}
+                height={500}
               />
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-full h-64 overflow-hidden">
-              <Image
-                src={level1}
-                alt="slide 2"
-                layout="fill"
-                objectFit="cover"
-              />
+            <div className="w-full h-50 ">
+              <Image src={level1} alt="slide 2" width={500} height={500} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-full h-64 overflow-hidden relative">
-              <Image
-                src={level2}
-                alt="slide 3"
-                layout="fill"
-                objectFit="cover"
-              />
+            <div className="w-full h-50 overflow-hidden relative">
+              <Image src={level2} alt="slide 3" width={500} height={500} />
             </div>
           </SwiperSlide>
         </Swiper>

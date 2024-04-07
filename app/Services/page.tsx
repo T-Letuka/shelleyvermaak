@@ -8,6 +8,7 @@ import trauma from "@/public/trauma.jpg";
 import addiction1 from "@/public/addiction1.jpg";
 import love from "@/public/love.jpg";
 import hands from "@/public/hands.png";
+import SectionHeading from "../Components/SectionHeading/SectionHeading";
 
 const Page = () => {
   return (
@@ -16,19 +17,15 @@ const Page = () => {
         <Header
           heading="Counselling Services"
           paragraph=" 
-            Our services encompass Relationship and Marriage Counseling, Play
-            Therapy for Children, Teen Therapy, Adult Therapy, as well as
-            Counseling on a wide array of emotional issues.We provide assistance
-            with Forgiveness, Resentments & Bitterness, Depression & Mental
-            Health Issues, Rejection & Abandonment, Emotional Management, Grief,
-            Loss and Sadness, Despair & Hopelessness, Family Issues, Identity,
-            Guilt & Shame, Low Self-Esteem, Fear and Anxiety, Change, Coping
-            Skills, Conflict and Communication, Body Image, Assertiveness,
-            Self-Awareness, and Self-Motivation. So, grab a seat on our therapy
-            couch, and let's dive into the roller coaster ride that is life!"
+           My counseling services encompass a wide range of areas, including relationship and marriage counseling, therapy for children, teens, and adults, 
+           and assistance with various emotional issues such as forgiveness, depression, grief, family issues, identity, self-esteem, fear, anxiety, coping skills, communication, and self-awareness. Join us on our therapy journey as we navigate the roller coaster ride of life together."
         />
       </div>
       <div className="flex gap-5 flex-col">
+        <SectionHeading
+          headingMini="Comprehensive Counseling Services"
+          description=" Supporting Your Emotional Well-being"
+        />
         <BigCards
           image={playtherapy.src}
           title="Play Therapy"
@@ -43,7 +40,7 @@ const Page = () => {
         <BigCards
           image={trauma.src}
           title="Trauma & Mental Health "
-          paragraph="Trauma must be distinguished from other painful experiences, as not all negative experiences qualify as trauma. Trauma, by definition, is always distressing and disturbing, leading to mental or emotional challenges that often persist over time.It is an emotional response to a profoundly difficult or unpleasant event, disrupting an individual's stability and sense of control. Trauma is deeply disturbing, impacting trust and leaving individuals feeling immobilized. Symptoms may include anxiety, safety concerns, depression, anger, hyper-vigilance, distrust, and potentially Post-Traumatic Stress Disorder.Trauma fundamentally alters one's approach to life. Trauma Counseling aims to provide perspective, identify stress responses, and help individuals acknowledge and cope with their losses."
+          paragraph="Trauma must be distinguished from other painful experiences, as not all negative experiences qualify as trauma. Trauma, by definition, is always distressing and disturbing, leading to mental or emotional challenges that often persist over time.It is an emotional response to a profoundly difficult or unpleasant event, disrupting an individual's stability and sense of control. Trauma is deeply disturbing, impacting trust and leaving individuals feeling immobilized. Symptoms may include anxiety, safety concerns, depression, anger, hyper-vigilance, distrust, and potentially Post-Traumatic Stress Disorder.Trauma fundamentally alters one's approach to life. Trauma Counseling aims to provide perspective, identify stress responses, and help individuals acknowledge and cope with their losses.Group Debriefings also offered."
         />
         <BigCards
           image={love.src}
