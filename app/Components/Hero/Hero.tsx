@@ -3,6 +3,7 @@ import hero from "@/public/hero.png";
 import Image from "next/image";
 import BlueButton from "../Buttons/BlueButton";
 import GoldButton from "../Buttons/GoldButton";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -24,8 +25,12 @@ const Hero = () => {
             sessions are conducted with the utmost confidentiality.
           </p>
           <div className="flex items-center space-x-4 md:space-x-6 mt-2">
-            <BlueButton text="Book Appointment" />
-            <GoldButton text="Explore Site" />
+            <Link href="/ContactMe">
+              <BlueButton text="Book Appointment" />
+            </Link>
+            <Link href="/Services">
+              <GoldButton text="Services" />
+            </Link>
           </div>
         </div>
 
