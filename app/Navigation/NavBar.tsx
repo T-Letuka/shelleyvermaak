@@ -12,7 +12,7 @@ const Nav = ({ openNav }: Props) => {
       <div className="w-[85%] flex items-center justify-between mx-auto h-[12vh]">
         <h1 className="text-[16px] md:text-[25px] font-bold text-black">
           <span className="text-[27px] md:text-[40px] text-[#ca9b02]">S</span>
-          helly
+          helley
           <span className="text-[27px] md:text-[40px] text-[#ca9502] ml-[10px]">
             V
           </span>

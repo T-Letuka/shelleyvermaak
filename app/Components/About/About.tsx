@@ -20,8 +20,8 @@ const About = () => {
             those unable to attend in person. My counseling expertise spans
             across various domains, and I am dedicated to referring individuals
             to appropriate resources should their needs fall beyond my scope of
-            practice.Primarily, I specialize in addressing addiction-related
-            concerns, offering support to both individuals and their families.
+            practice.I started out in the field of addiction,working in that
+            environment for seven years.
             <br />
             <br />
             Moreover, I possess extensive experience in aiding women confronted
@@ -31,7 +31,7 @@ const About = () => {
             issues. Recently certified in Gestalt and Play Intervention, I also
             work with children and special needs individuals. LGBTQ-friendly and
             non-judgmental, I prioritize affordability to ensure counseling is
-            accessible to all.
+            accessible to all.I assist people belonging to any faith.
           </p>
         </div>
       </div>

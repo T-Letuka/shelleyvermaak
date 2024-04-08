@@ -2,6 +2,8 @@
 import { useEffect, useRef } from "react";
 import level1 from "@/public/level1.png";
 import level2 from "@/public/level2.png";
+import degree1 from "@/public/degree1.png";
+import Link from "next/link";
 import registration from "@/public/registration.png";
 import Header from "../Components/Header/Header";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -9,7 +11,10 @@ import "swiper/css";
 import SwiperCore, { Swiper as SwiperType } from "swiper";
 import Image from "next/image";
 import MediumCard from "../Components/BigCards/MediumCard";
+import SectionHeading from "../Components/SectionHeading/SectionHeading";
+import { Navigation } from "swiper/modules";
 SwiperCore.use([]);
+SwiperCore.use([Navigation]);
 
 const Pages = () => {
   const swiperRef = useRef<SwiperType | null>(null);
@@ -63,7 +68,7 @@ const Pages = () => {
           />
           <MediumCard
             title="From Hardship to Healing: My Journey of Personal Growth and Resilience"
-            paragraph="Collaborating with an exceptional team, we witnessed
+            paragraph="Whilst working at a rehalibilitation centre along with an exceptional team, we witnessed
             remarkable transformations. My personal journey has been fraught
             with hardships, including teenage pregnancy, abandonment, abuse,
             addiction, divorce, blended families, and psychological struggles.
@@ -73,11 +78,16 @@ const Pages = () => {
             captive by past traumas."
           />
         </div>
+        <SectionHeading
+          headingMini="Slide to see more"
+          description="My Credentials"
+        />
       </div>
       <div className="mt-8">
         <Swiper
           spaceBetween={30}
           slidesPerView={1}
+          navigation={true}
           breakpoints={{
             640: {
               slidesPerView: 2,
@@ -86,29 +96,61 @@ const Pages = () => {
               slidesPerView: 3,
             },
             1024: {
-              slidesPerView: 4,
+              slidesPerView: 2,
             },
           }}
           onSlideChange={() => console.log("slide change")}
         >
           <SwiperSlide>
-            <div className="w-full h-50 ">
-              <Image
-                src={registration}
-                alt="slide 1"
-                width={500}
-                height={500}
-              />
+            <div className="w-full h-50 px-[6rem] py-[3rem]">
+              <Image src={level1} width={357} height={512} alt="icon " />
+              <Link href="/articles/shelley-level-1.pdf">
+                <button
+                  className="bg-[#08080e] text-white font-serif border rounded-md 
+                px-3 py-1 hover:bg-[#fca311] hover:text-black"
+                >
+                  Open Pdf
+                </button>
+              </Link>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-full h-50 ">
-              <Image src={level1} alt="slide 2" width={500} height={500} />
+            <div className="w-full h-50 px-[6rem] py-[3rem]">
+              <Image src={level2} width={344} height={505} alt="icon " />
+              <Link href="/articles/shelley-level2.pdf">
+                <button
+                  className="bg-[#08080e] text-white font-serif border rounded-md 
+                px-3 py-1 hover:bg-[#fca311] hover:text-black"
+                >
+                  Open Pdf
+                </button>
+              </Link>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-full h-50 overflow-hidden relative">
-              <Image src={level2} alt="slide 3" width={500} height={500} />
+            <div className="w-full h-50 px-[6rem] py-[3rem]">
+              <Image src={registration} width={466} height={592} alt="icon " />
+              <Link href="/articles/registration.pdf">
+                <button
+                  className="bg-[#08080e] text-white font-serif border rounded-md 
+                px-3 py-1 hover:bg-[#fca311] hover:text-black mt-1"
+                >
+                  Open Pdf
+                </button>
+              </Link>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="w-full h-50 px-[6rem] py-[3rem]">
+              <Image src={degree1} width={1500} height={1500} alt="icon " />
+              <Link href="/articles/BA-Degree.pdf">
+                <button
+                  className="bg-[#08080e] text-white font-serif border rounded-md 
+                px-3 py-1 hover:bg-[#fca311] hover:text-black mt-1"
+                >
+                  Open Pdf
+                </button>
+              </Link>
             </div>
           </SwiperSlide>
         </Swiper>

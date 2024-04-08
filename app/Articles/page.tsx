@@ -31,7 +31,7 @@ const Pages = () => {
       <SectionHeading
         headingMini="Healing Journey"
         description="Healing is the courageous act of embracing both our brokenness and our capacity to mend."
-      />{" "}
+      />
       <div className="mt-8">
         <Swiper
           spaceBetween={30}
