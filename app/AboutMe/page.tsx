@@ -103,6 +103,19 @@ const Pages = () => {
         >
           <SwiperSlide>
             <div className="w-full h-50 px-[6rem] py-[3rem]">
+              <Image src={degree1} width={1500} height={1500} alt="icon " />
+              <Link href="/articles/BA-Degree.pdf">
+                <button
+                  className="bg-[#08080e] text-white font-serif border rounded-md 
+                px-3 py-1 hover:bg-[#fca311] hover:text-black mt-1"
+                >
+                  Open Pdf
+                </button>
+              </Link>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="w-full h-50 px-[6rem] py-[3rem]">
               <Image src={level1} width={357} height={512} alt="icon " />
               <Link href="/articles/shelley-level-1.pdf">
                 <button
@@ -131,19 +144,6 @@ const Pages = () => {
             <div className="w-full h-50 px-[6rem] py-[3rem]">
               <Image src={registration} width={466} height={592} alt="icon " />
               <Link href="/articles/registration.pdf">
-                <button
-                  className="bg-[#08080e] text-white font-serif border rounded-md 
-                px-3 py-1 hover:bg-[#fca311] hover:text-black mt-1"
-                >
-                  Open Pdf
-                </button>
-              </Link>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="w-full h-50 px-[6rem] py-[3rem]">
-              <Image src={degree1} width={1500} height={1500} alt="icon " />
-              <Link href="/articles/BA-Degree.pdf">
                 <button
                   className="bg-[#08080e] text-white font-serif border rounded-md 
                 px-3 py-1 hover:bg-[#fca311] hover:text-black mt-1"
